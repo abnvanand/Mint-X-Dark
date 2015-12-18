@@ -2008,7 +2008,9 @@ GtkTreeView row:nth-child(even),
 GtkTreeView row:nth-child(odd) {
     background-color: @theme_base_color;
 }
-
+GtkTreeView row:nth-child(even) {
+    background-color: #4a4a4a;
+}
 /************
  * viewport *
  ************/
