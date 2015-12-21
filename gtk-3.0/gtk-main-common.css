@@ -10,7 +10,7 @@
  * Error/Warning/... *
  *********************/
 @define-color link_color #5aaa9a;
-@define-color info_color #fafafa;
+@define-color info_color #525252;
 @define-color question_color #55c1ec;
 @define-color warning_color #fdde76;
 @define-color error_color #e35d4f;

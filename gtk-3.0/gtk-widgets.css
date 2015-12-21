@@ -874,6 +874,7 @@ GtkGrid:insensitive {
                             @info_color,
                             shade(@info_color, 0.9));
 
+    /*background-color: #333333;*/
 }
 
 .info GtkLabel {
