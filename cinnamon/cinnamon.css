@@ -7,71 +7,64 @@ stage {
 }
 
 .cinnamon-link {
-    color: #0000ff;
+    color: #5aaa9a;
     text-decoration: underline;
 }
 
 .cinnamon-link:hover {
-    color: #0000e0;
+    color: #5aaaaa;
 }
 
 .label-shadow {
-    color: rgba(0,0,0,0.5);
+    color: rgba(0, 0, 0, 0.5);
 }
 
-StScrollBar
-{
-  padding: 0px;
+StScrollBar {
+    padding: 0px;
 }
 
-StScrollView.vfade
-{
-  -st-vfade-offset: 68px;
+StScrollView.vfade {
+    -st-vfade-offset: 68px;
 }
 
-StScrollView StScrollBar
-{
-  min-width: 8px;
-  min-height: 16px;
+StScrollView StScrollBar {
+    min-width: 8px;
+    min-height: 16px;
 }
-
 
 StScrollBar StBin#trough {
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
     border: 1px solid #555555;
     border-radius: 4px;
 }
 
-StScrollBar StButton#vhandle
-{
-    background-color: rgba(90,90,90,1);
-    border: 1px solid rgba(90,90,90,1);
+StScrollBar StButton#vhandle {
+    background-color: rgba(90, 90, 90, 1);
+    border: 1px solid rgba(90, 90, 90, 1);
     border-radius: 4px;
 }
 
-StScrollBar StButton#hhandle
-{
-    background-color: rgba(90,90,90,1);
-    border: 1px solid rgba(90,90,90,1);
+StScrollBar StButton#hhandle {
+    background-color: rgba(90, 90, 90, 1);
+    border: 1px solid rgba(90, 90, 90, 1);
     border-radius: 4px;
 }
 
 StScrollBar StButton#hhandle:hover,
-StScrollBar StButton#vhandle:hover
-{
-    background-color: rgba(100,100,100,1);
+StScrollBar StButton#vhandle:hover {
+    background-color: rgba(100, 100, 100, 1);
 }
 
 #Tooltip {
-    border: 1px solid rgba(212,185,67,1.0);
+    border: 1px solid rgba(212, 185, 67, 1.0);
     border-radius: 4px;
     padding: 2px 12px;
-    background-gradient-end: rgba(251,234,159,0.9);
-    background-gradient-start: rgba(254,245,198,0.9);
+    background-gradient-end: rgba(251, 234, 159, 0.9);
+    background-gradient-start: rgba(254, 245, 198, 0.9);
     background-gradient-direction: vertical;
     color: #000000;
     font-size: 8.5pt;
-    font-weight: normal;    
+    font-weight: normal;
     text-align: center;
 }
 
@@ -88,7 +81,7 @@ StScrollBar StButton#vhandle:hover
     background-gradient-start: rgba(255, 255, 255, 0.2);
     background-gradient-end: rgba(255, 255, 255, 0);
     font-size: 8.5pt;
-    font-weight: normal;    
+    font-weight: normal;
     text-align: center;
 }
 
@@ -102,7 +95,7 @@ StScrollBar StButton#vhandle:hover
 .notification-button:focus,
 .notification-icon-button:focus, .hotplug-notification-item:focus,
 .modal-dialog-button:focus {
-    border: 1px solid rgba(35,35,35,1);
+    border: 1px solid rgba(35, 35, 35, 1);
 }
 
 .notification-button:active, .notification-icon-button:active,
@@ -118,9 +111,9 @@ StScrollBar StButton#vhandle:hover
 
 .popup-menu-boxpointer {
     -arrow-border-radius: 4px;
-    -arrow-background-color: rgba(63,63,63,0.95);
+    -arrow-background-color: rgba(63, 63, 63, 0.95);
     -arrow-border-width: 1px;
-    -arrow-border-color: rgba(120,120,120,1);
+    -arrow-border-color: rgba(120, 120, 120, 1);
     -arrow-base: 21px;
     -arrow-rise: 9px;
     -boxpointer-gap: 2px;
@@ -133,12 +126,12 @@ StScrollBar StButton#vhandle:hover
 }
 
 .popup-submenu-menu-item:open {
-    background-color: rgba(70,70,70,0.7);    
+    background-color: rgba(70, 70, 70, 0.7);
 }
 
 .popup-sub-menu {
-    background-gradient-start: rgba(70,70,70,0.7);
-    background-gradient-end: rgba(70,70,70,0.0);
+    background-gradient-start: rgba(70, 70, 70, 0.7);
+    background-gradient-end: rgba(70, 70, 70, 0.0);
     background-gradient-direction: vertical;
 }
 
@@ -164,7 +157,7 @@ StScrollBar StButton#vhandle:hover
 }
 
 .popup-combo-menu {
-    background-color: rgba(0,0,0,0.9);
+    background-color: rgba(0, 0, 0, 0.9);
     padding: 1em 0em;
     color: #ffffff;
     font-size: 10.5pt;
@@ -185,7 +178,7 @@ StScrollBar StButton#vhandle:hover
 }
 
 .popup-menu-item:active {
-    background-color: rgba(80,80,80,0.5);    
+    background-color: rgba(90, 170, 154, 0.1);
 }
 
 .popup-menu-item:insensitive {
@@ -201,8 +194,8 @@ StScrollBar StButton#vhandle:hover
 
 .popup-separator-menu-item {
     -gradient-height: 1px;
-    -gradient-start: rgba(90,90,90,1);
-    -gradient-end: rgba(90,90,90,1);
+    -gradient-start: rgba(90, 90, 90, 1);
+    -gradient-end: rgba(90, 90, 90, 1);
     -margin-horizontal: 1.5em;
     height: 1em;
 }
@@ -216,10 +209,10 @@ StScrollBar StButton#vhandle:hover
     min-width: 15em;
     color: white;
     -slider-height: 0.3em;
-    -slider-background-color: rgba(35,35,35,1);
-    -slider-border-color: rgba(35,35,35,1);
-    -slider-active-background-color: rgba(100,100,100,1);
-    -slider-active-border-color: rgba(100,100,100,1);
+    -slider-background-color: rgba(35, 35, 35, 1);
+    -slider-border-color: rgba(35, 35, 35, 1);
+    -slider-active-background-color: rgba(100, 100, 100, 1);
+    -slider-active-border-color: rgba(100, 100, 100, 1);
     -slider-border-width: 1px;
     -slider-handle-radius: 0.5em;
 }
@@ -250,6 +243,7 @@ StScrollBar StButton#vhandle:hover
 .toggle-switch-us {
     background-image: url("toggle-off-us.svg");
 }
+
 .toggle-switch-us:checked {
     background-image: url("toggle-on-us.svg");
 }
@@ -257,6 +251,7 @@ StScrollBar StButton#vhandle:hover
 .toggle-switch-intl {
     background-image: url("toggle-off-intl.svg");
 }
+
 .toggle-switch-intl:checked {
     background-image: url("toggle-on-intl.svg");
 }
@@ -271,25 +266,27 @@ StScrollBar StButton#vhandle:hover
 
 #panel {
     color: #ffffff;
-    background-gradient-start: rgba(70,70,70,0.9);
-    background-gradient-end: rgba(50,50,50,0.9);
+    background-gradient-start: rgba(70, 70, 70, 0.9);
+    background-gradient-end: rgba(50, 50, 50, 0.9);
     background-gradient-direction: vertical;
     font-size: 9pt;
     font-weight: normal;
     height: 25px;
-    box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 #panel:highlight {
     background-color: #aa5555;
 }
+
 .panel-dummy {
-    border: 1px solid rgba(120,120,120,0.9);
-    background-color: rgba(63,63,63,0.7);
+    border: 1px solid rgba(120, 120, 120, 0.9);
+    background-color: rgba(63, 63, 63, 0.7);
 }
+
 .panel-dummy:entered {
-    border: 1px solid rgba(63,63,63,0.9);
-    background-color: rgba(120,120,120,0.7);
+    border: 1px solid rgba(63, 63, 63, 0.9);
+    background-color: rgba(120, 120, 120, 0.7);
 }
 
 #panelLeft, #panelCenter {
@@ -298,20 +295,20 @@ StScrollBar StButton#vhandle:hover
 
 #panelLeft:dnd {
     background-gradient-direction: vertical;
-	background-gradient-start: rgba(255,0,0,0.05);
-	background-gradient-end: rgba(255,0,0,0.2);        
+    background-gradient-start: rgba(255, 0, 0, 0.05);
+    background-gradient-end: rgba(255, 0, 0, 0.2);
 }
 
 #panelCenter:dnd {
     background-gradient-direction: vertical;
-	background-gradient-start: rgba(0,255,0,0.05);
-	background-gradient-end: rgba(0,255,0,0.2);        
+    background-gradient-start: rgba(0, 255, 0, 0.05);
+    background-gradient-end: rgba(0, 255, 0, 0.2);
 }
 
 #panelRight:dnd {
     background-gradient-direction: vertical;
-	background-gradient-start: rgba(0,0,255,0.05);
-	background-gradient-end: rgba(0,0,255,0.2);        
+    background-gradient-start: rgba(0, 0, 255, 0.05);
+    background-gradient-end: rgba(0, 0, 255, 0.2);
 }
 
 #panelLeft:ltr {
@@ -339,12 +336,12 @@ StScrollBar StButton#vhandle:hover
 }
 
 .panel-status-button {
-    border: 0px solid rgba(0,0,0,0);
+    border: 0px solid rgba(0, 0, 0, 0);
     -natural-hpadding: 3px;
     -minimum-hpadding: 3px;
     font-weight: bold;
-    color: rgba(200,200,200,1);    
-    height: 22px;    
+    color: rgba(200, 200, 200, 1);
+    height: 22px;
 }
 
 .panel-status-button:hover {
@@ -355,15 +352,15 @@ StScrollBar StButton#vhandle:hover
 .panel-status-button:active {
     color: white;
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(30,30,30,1);
-    background-gradient-end: rgba(50,50,50,1);
+    background-gradient-start: rgba(30, 30, 30, 1);
+    background-gradient-end: rgba(50, 50, 50, 1);
 }
 
 .system-status-icon {
-	padding-left: 0px;
-	padding-right: 0px;	
-	spacing: 0px;
-	margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    spacing: 0px;
+    margin: 0px;
 }
 
 #appMenu {
@@ -384,7 +381,7 @@ StScrollBar StButton#vhandle:hover
     -natural-hpadding: 6px;
     -minimum-hpadding: 2px;
     font-weight: bold;
-    color: rgba(200,200,200,1);
+    color: rgba(200, 200, 200, 1);
     transition-duration: 100;
 }
 
@@ -397,8 +394,8 @@ StScrollBar StButton#vhandle:hover
 .panel-button:focus {
     color: white;
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(30,30,30,1);
-    background-gradient-end: rgba(50,50,50,1);
+    background-gradient-start: rgba(30, 30, 30, 1);
+    background-gradient-end: rgba(50, 50, 50, 1);
 }
 
 .panel-button:active > .system-status-icon,
@@ -433,9 +430,9 @@ StScrollBar StButton#vhandle:hover
 }
 
 .window-caption#selected {
-  background-color: white;
-  color: black;
-  spacing: 25px;
+    background-color: white;
+    color: black;
+    spacing: 25px;
 }
 
 .workspace-controls {
@@ -457,7 +454,7 @@ StScrollBar StButton#vhandle:hover
 }
 
 .workspace-thumbnails {
-        spacing: 14px;
+    spacing: 14px;
 }
 
 .workspace-add-button {
@@ -467,7 +464,7 @@ StScrollBar StButton#vhandle:hover
     transition-duration: 300;
 }
 
-.workspace-add-button:hover {  
+.workspace-add-button:hover {
     background-image: url("add-workspace-hover.png");
     transition-duration: 300;
 }
@@ -486,9 +483,9 @@ StScrollBar StButton#vhandle:hover
 
 .window-caption {
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(90,90,90,1);
-    background-gradient-end: rgba(70,70,70,1);
-    box-shadow: inset 0px 1px 0px 0px rgba(100,100,100,1);
+    background-gradient-start: rgba(90, 90, 90, 1);
+    background-gradient-end: rgba(70, 70, 70, 1);
+    box-shadow: inset 0px 1px 0px 0px rgba(100, 100, 100, 1);
     border-radius: 4px;
     font-size: 9pt;
     padding: 2px 8px;
@@ -503,17 +500,17 @@ StScrollBar StButton#vhandle:hover
 }
 
 .window-close:rtl {
-    -st-background-image-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+    -st-background-image-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
 }
 
 .window-close-area {
-  background-image: url("trash-icon.png");
-  background-color: rgba(60, 60, 60, 0.8);
-  border: 4px solid rgba(128,128,128,0.8);
-  border-bottom-width: 0px;
-  border-radius: 20px 20px 0px 0px;
-  height: 120px;
-  width: 400px;
+    background-image: url("trash-icon.png");
+    background-color: rgba(60, 60, 60, 0.8);
+    border: 4px solid rgba(128, 128, 128, 0.8);
+    border-bottom-width: 0px;
+    border-radius: 20px 20px 0px 0px;
+    height: 120px;
+    width: 400px;
 }
 
 .icon-grid {
@@ -528,7 +525,7 @@ StScrollBar StButton#vhandle:hover
 .overview-icon {
     border-radius: 4px;
     padding: 3px;
-    border: 1px rgba(0,0,0,0);
+    border: 1px rgba(0, 0, 0, 0);
     font-size: 7.5pt;
     color: white;
     transition-duration: 100;
@@ -536,24 +533,24 @@ StScrollBar StButton#vhandle:hover
 }
 
 .expo-background {
-  background-gradient-start: #000;
-  background-gradient-end: #AAA;
-  background-gradient-direction: vertical
+    background-gradient-start: #000;
+    background-gradient-end: #AAA;
+    background-gradient-direction: vertical
 }
 
 .workspace-overview-background-shade {
-  background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .expo-workspace-thumbnail-frame {
-  border: 1px, rgba(64,64,64,0.9);
-  background-color: rgba(64,64,64,0.9);
+    border: 1px, rgba(64, 64, 64, 0.9);
+    background-color: rgba(64, 64, 64, 0.9);
 }
 
 .expo-workspace-thumbnail-frame#active {
-  border: 2px, rgba(32,32,32,0.9);
-  background-color: rgba(32,32,32,0.9);
-} 
+    border: 2px, rgba(32, 32, 32, 0.9);
+    background-color: rgba(32, 32, 32, 0.9);
+}
 
 /* ===================================================================
 * Desklets (desklet.js)
@@ -592,17 +589,16 @@ StScrollBar StButton#vhandle:hover
     padding: 6px;
 }
 
-.desklet-drag-placeholder { 
+.desklet-drag-placeholder {
     border: 2px solid #6daa00;
-    background-color: rgba(109,170, 0, 0.3);
-} 
+    background-color: rgba(109, 170, 0, 0.3);
+}
 
 /* ===================================================================
  * Clock Desklet (desklet.js) 
  * ===================================================================*/
 .clock-desklet-label {
-} 
-
+}
 
 /* ===================================================================
  * Looking Glass 
@@ -613,14 +609,13 @@ StScrollBar StButton#vhandle:hover
  * from looking glass
  */
 
-#LookingGlassDialog
-{
-  background-color: rgba(35,35,35,0.8);
-  spacing: 4px;
-  padding: 4px;
-  border: 1px solid rgba(100,100,100,0.8);
-  border-radius: 4px;
-  color: #CCCCCC;
+#LookingGlassDialog {
+    background-color: rgba(35, 35, 35, 0.8);
+    spacing: 4px;
+    padding: 4px;
+    border: 1px solid rgba(100, 100, 100, 0.8);
+    border-radius: 4px;
+    color: #CCCCCC;
 }
 
 /* ===================================================================
@@ -646,7 +641,7 @@ StScrollBar StButton#vhandle:hover
     height: 12px;
     background-image: url("calendar-arrow-left.svg");
     border-radius: 4px;
-    border: 1px solid rgba(0,0,0,0);
+    border: 1px solid rgba(0, 0, 0, 0);
 }
 
 .calendar-change-month-back:rtl {
@@ -654,11 +649,12 @@ StScrollBar StButton#vhandle:hover
 }
 
 .calendar-change-month-back:hover {
-    background-color: rgba(80,80,80,1);
-    border: 1px solid rgba(120,120,120,1);
+    background-color: rgba(80, 80, 80, 1);
+    border: 1px solid rgba(120, 120, 120, 1);
 }
+
 .calendar-change-month-back:active {
-    background-color: rgba(50,50,50,1);
+    background-color: rgba(50, 50, 50, 1);
 }
 
 .calendar-change-month-forward {
@@ -666,7 +662,7 @@ StScrollBar StButton#vhandle:hover
     height: 12px;
     background-image: url("calendar-arrow-right.svg");
     border-radius: 4px;
-    border: 1px solid rgba(0,0,0,0);
+    border: 1px solid rgba(0, 0, 0, 0);
 }
 
 .calendar-change-month-forward:rtl {
@@ -674,12 +670,12 @@ StScrollBar StButton#vhandle:hover
 }
 
 .calendar-change-month-forward:hover {
-    background-color: rgba(80,80,80,1);
-    border: 1px solid rgba(120,120,120,1);
+    background-color: rgba(80, 80, 80, 1);
+    border: 1px solid rgba(120, 120, 120, 1);
 }
 
 .calendar-change-month-forward:active {
-    background-color: rgba(50,50,50,1);
+    background-color: rgba(50, 50, 50, 1);
 }
 
 .datemenu-date-label {
@@ -716,14 +712,16 @@ StScrollBar StButton#vhandle:hover
 
 /* Hack used in lieu of border-collapse - see calendar.js */
 .calendar-day {
-    border: 1px solid rgba(90,90,90,1);
+    border: 1px solid rgba(90, 90, 90, 1);
     color: #cccccc;
     border-top-width: 0;
     border-left-width: 0;
 }
+
 .calendar-day-top {
     border-top-width: 1px;
 }
+
 .calendar-day-left {
     border-left-width: 1px;
 }
@@ -740,9 +738,9 @@ StScrollBar StButton#vhandle:hover
     color: #ffffff;
     font-weight: bold;
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(40,40,40,1);
-    background-gradient-end: rgba(60,60,60,1);
-    box-shadow: inset 0px 0px 0px 1px rgba(120,120,120,1);
+    background-gradient-start: rgba(40, 40, 40, 1);
+    background-gradient-end: rgba(60, 60, 60, 1);
+    box-shadow: inset 0px 0px 0px 1px rgba(120, 120, 120, 1);
     background: #5aaa9a;
 }
 
@@ -762,19 +760,19 @@ StScrollBar StButton#vhandle:hover
 #notification {
     font-size: 8.5pt;
     border-radius: 10px 10px 10px 10px;
-    border: 2px solid rgba(214,214,214,0.5);
+    border: 2px solid rgba(214, 214, 214, 0.5);
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(66,66,66,0.9);
-    background-gradient-end: rgba(55,55,55,0.9);
+    background-gradient-start: rgba(66, 66, 66, 0.9);
+    background-gradient-end: rgba(55, 55, 55, 0.9);
     padding: 8px 8px 8px 8px;
     spacing-rows: 10px;
     spacing-columns: 10px;
-    margin-from-right-edge-of-screen: 20px;    
+    margin-from-right-edge-of-screen: 20px;
     width: 34em;
-    color: white;    
+    color: white;
     /* The px are a temporary fix until get_theme_node() can return raw numbers. */
-    opacity:255px;
-    mouseover-opacity:96px
+    opacity: 255px;
+    mouseover-opacity: 96px
 }
 
 #notification.multi-line-notification {
@@ -842,12 +840,12 @@ StScrollBar StButton#vhandle:hover
     border-radius: 4px;
     color: #a8a8a8;
     selected-color: black;
-    border: 1px solid rgba(245,245,245,0.2);
+    border: 1px solid rgba(245, 245, 245, 0.2);
     background-gradient-direction: vertical;
-    background-gradient-start: rgb(200,200,200);
+    background-gradient-start: rgb(200, 200, 200);
     background-gradient-end: white;
     transition-duration: 300;
-    box-shadow: inset 0px 2px 4px rgba(0,0,0,0.6);
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.6);
 
     caret-color: #a8a8a8;
     caret-size: 1px;
@@ -857,7 +855,7 @@ StScrollBar StButton#vhandle:hover
     border: 1px solid #8b8b8b;
     color: #333333;
     background-gradient-direction: vertical;
-    background-gradient-start: rgb(200,200,200);
+    background-gradient-start: rgb(200, 200, 200);
     background-gradient-end: white;
 
     caret-color: #545454;
@@ -875,13 +873,13 @@ StScrollBar StButton#vhandle:hover
 
 .switcher-list {
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(70,70,70,1);
-    background-gradient-end: rgba(50,50,50,1);
+    background-gradient-start: rgba(70, 70, 70, 1);
+    background-gradient-end: rgba(50, 50, 50, 1);
     border-radius: 8px;
     padding: 20px;
     font-size: 9pt;
     color: white;
-    box-shadow: 0px 0px 12px 6px rgba(0,0,0,1);
+    box-shadow: 0px 0px 12px 6px rgba(0, 0, 0, 1);
 }
 
 .switcher-list-item-container {
@@ -910,20 +908,20 @@ StScrollBar StButton#vhandle:hover
 
 .switcher-list .item-box {
     padding: 8px;
-    border: 1px solid rgba(0,0,0,0);
+    border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 8px;
 }
 
 .switcher-list .item-box:outlined {
     padding: 6px;
-    border: 2px solid rgba(85,85,85,1.0);
+    border: 2px solid rgba(85, 85, 85, 1.0);
 }
 
 .switcher-list .item-box:selected {
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(90,90,90,1);
-    background-gradient-end: rgba(70,70,70,1);
-    border: 1px solid rgba(120,120,120,1);
+    background-gradient-start: rgba(90, 90, 90, 1);
+    background-gradient-end: rgba(70, 70, 70, 1);
+    border: 1px solid rgba(120, 120, 120, 1);
 }
 
 .switcher-list .thumbnail-box {
@@ -932,12 +930,12 @@ StScrollBar StButton#vhandle:hover
 }
 
 .switcher-list .thumbnail {
-    width:  256px;
+    width: 256px;
 }
 
 .switcher-list .separator {
     width: 1px;
-    background: rgba(255,255,255,0.33);
+    background: rgba(255, 255, 255, 0.33);
 }
 
 .ripple-box {
@@ -951,17 +949,17 @@ StScrollBar StButton#vhandle:hover
 }
 
 .switcher-arrow {
-    border-color: rgba(0,0,0,0);
+    border-color: rgba(0, 0, 0, 0);
     color: #808080;
 }
 
 .switcher-arrow:highlighted {
-    border-color: rgba(0,0,0,0);
+    border-color: rgba(0, 0, 0, 0);
     color: white;
 }
 
 .switcher-preview-backdrop {
-   background-color: rgba(25,25,25,0.65);
+    background-color: rgba(25, 25, 25, 0.65);
 }
 
 /* ===================================================================
@@ -972,10 +970,10 @@ StScrollBar StButton#vhandle:hover
     font-size: 10pt;
     border-radius: 8px;
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(70,70,70,1);
-    background-gradient-end: rgba(50,50,50,1);
+    background-gradient-start: rgba(70, 70, 70, 1);
+    background-gradient-end: rgba(50, 50, 50, 1);
     color: #babdb6;
-    box-shadow: 0px 0px 12px 6px rgba(0,0,0,1);
+    box-shadow: 0px 0px 12px 6px rgba(0, 0, 0, 1);
 
     padding-right: 30px;
     padding-left: 30px;
@@ -993,10 +991,10 @@ StScrollBar StButton#vhandle:hover
     font-size: 10pt;
     color: white;
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(80,80,80,1);
-    background-gradient-end: rgba(60,60,60,1);
-    border: 1px solid rgba(0,0,0,0);
-    box-shadow: inset 0px 1px 0px 0px rgba(100,100,100,1);
+    background-gradient-start: rgba(80, 80, 80, 1);
+    background-gradient-end: rgba(60, 60, 60, 1);
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-shadow: inset 0px 1px 0px 0px rgba(100, 100, 100, 1);
     margin-left: 10px;
     margin-right: 10px;
     padding: 4px 32px 5px;
@@ -1004,17 +1002,17 @@ StScrollBar StButton#vhandle:hover
 
 .modal-dialog-button:hover {
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(90,90,90,1);
-    background-gradient-end: rgba(70,70,70,1);
-    border: 1px solid rgba(120,120,120,1);
+    background-gradient-start: rgba(90, 90, 90, 1);
+    background-gradient-end: rgba(70, 70, 70, 1);
+    border: 1px solid rgba(120, 120, 120, 1);
 }
 
 .modal-dialog-button:active,
 .modal-dialog-button:checked {
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(60,60,60,1);
-    background-gradient-end: rgba(40,40,40,1);
-    box-shadow: inset 0px 1px 0px 0px rgba(35,35,35,1);
+    background-gradient-start: rgba(60, 60, 60, 1);
+    background-gradient-end: rgba(40, 40, 40, 1);
+    box-shadow: inset 0px 1px 0px 0px rgba(35, 35, 35, 1);
 }
 
 .modal-dialog-button:disabled {
@@ -1028,8 +1026,8 @@ StScrollBar StButton#vhandle:hover
 .info-osd {
     font-size: 24pt;
     border-radius: 20px;
-    background-color: rgba(55,55,55,0.9);
-    border: 2px solid rgba(90,90,90,1.0);
+    background-color: rgba(55, 55, 55, 0.9);
+    border: 2px solid rgba(90, 90, 90, 1.0);
     color: #fff;
     padding-right: 20px;
     padding-left: 20px;
@@ -1040,8 +1038,8 @@ StScrollBar StButton#vhandle:hover
 
 .osd-window {
     border-radius: 24px;
-    background-color: rgba(55,55,55,0.9);
-    border: 2px solid rgba(90,90,90,1.0);
+    background-color: rgba(55, 55, 55, 0.9);
+    border: 2px solid rgba(90, 90, 90, 1.0);
     color: white;
     padding: 20px;
     spacing: 5px;
@@ -1050,7 +1048,7 @@ StScrollBar StButton#vhandle:hover
 .osd-window .level {
     height: 0.7em;
     border-radius: 0.3em;
-    background-color: rgba(190,190,190,0.2);
+    background-color: rgba(190, 190, 190, 0.2);
 }
 
 /* ===================================================================
@@ -1081,13 +1079,13 @@ StScrollBar StButton#vhandle:hover
     selected-color: black;
 }
 
-.run-dialog-completion-box { 
+.run-dialog-completion-box {
     padding-left: 15px;
     font-size: 10px;
-} 
+}
 
 .run-dialog {
-    border-radius: 8px;	
+    border-radius: 8px;
     padding-right: 21px;
     padding-left: 21px;
     padding-bottom: 15px;
@@ -1246,7 +1244,7 @@ StScrollBar StButton#vhandle:hover
 }
 
 .show-processes-dialog-app-list-item {
-    color: rgba(200,200,200,1);
+    color: rgba(200, 200, 200, 1);
 }
 
 .show-processes-dialog-app-list-item:hover {
@@ -1325,7 +1323,7 @@ StScrollBar StButton#vhandle:hover
 }
 
 .polkit-dialog-password-entry {
-    background-gradient-start: rgb(236,236,236);
+    background-gradient-start: rgb(236, 236, 236);
     background-gradient-end: white;
     background-gradient-direction: vertical;
     color: black;
@@ -1357,7 +1355,7 @@ StScrollBar StButton#vhandle:hover
 /* intentionally left transparent to avoid dialog changing size */
 .polkit-dialog-null-label {
     font-size: 10pt;
-    color: rgba(0,0,0,0);
+    color: rgba(0, 0, 0, 0);
     padding-bottom: 8px;
 }
 
@@ -1368,7 +1366,6 @@ StScrollBar StButton#vhandle:hover
 /* ===================================================================
  * Magnifier
  * ===================================================================*/
-
 
 .magnifier-zoom-region {
     border: 2px solid rgba(128, 0, 0, 255);
@@ -1382,10 +1379,9 @@ StScrollBar StButton#vhandle:hover
  * On screen keyboard
  * ===================================================================*/
 
-
 #keyboard {
-    background-color: rgba(55,55,55,1);
-    box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.5);
+    background-color: rgba(55, 55, 55, 1);
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .keyboard-layout {
@@ -1400,44 +1396,44 @@ StScrollBar StButton#vhandle:hover
 .keyboard-key {
     min-height: 30px;
     min-width: 30px;
-    background-gradient-start: rgba(80,80,80,1);
-    background-gradient-end: rgba(60,60,60,1);
+    background-gradient-start: rgba(80, 80, 80, 1);
+    background-gradient-end: rgba(60, 60, 60, 1);
     background-gradient-direction: vertical;
-    box-shadow: inset 0px 1px 0px 0px rgba(100,100,100,1);
+    box-shadow: inset 0px 1px 0px 0px rgba(100, 100, 100, 1);
     font-size: 14pt;
     font-weight: bold;
     border-radius: 8px;
-    border: 1px solid rgba(0,0,0,0);
+    border: 1px solid rgba(0, 0, 0, 0);
     color: white;
 }
 
 .keyboard-key:grayed {
-   color: #808080;
-   border-color: #808080;
+    color: #808080;
+    border-color: #808080;
 }
 
 .keyboard-key:checked,
 .keyboard-key:hover {
-    background-gradient-start: rgba(90,90,90,1);
-    background-gradient-end: rgba(70,70,70,1);
+    background-gradient-start: rgba(90, 90, 90, 1);
+    background-gradient-end: rgba(70, 70, 70, 1);
     background-gradient-direction: vertical;
-    border: 1px solid rgba(120,120,120,1);
+    border: 1px solid rgba(120, 120, 120, 1);
 }
 
 .keyboard-key:active {
-    background-gradient-start: rgba(60,60,60,1);
-    background-gradient-end: rgba(40,40,40,1);
+    background-gradient-start: rgba(60, 60, 60, 1);
+    background-gradient-end: rgba(40, 40, 40, 1);
     background-gradient-direction: vertical;
-    box-shadow: inset 0px 1px 0px 0px rgba(35,35,35,1);
+    box-shadow: inset 0px 1px 0px 0px rgba(35, 35, 35, 1);
 }
 
 .keyboard-subkeys {
     color: white;
     padding: 5px;
     -arrow-border-radius: 8px;
-    -arrow-background-color: rgba(50,50,50,1);
+    -arrow-background-color: rgba(50, 50, 50, 1);
     -arrow-border-width: 1px;
-    -arrow-border-color: rgba(90,90,90,1);
+    -arrow-border-color: rgba(90, 90, 90, 1);
     -arrow-base: 20px;
     -arrow-rise: 10px;
     -boxpointer-gap: 1px;
@@ -1452,65 +1448,66 @@ StScrollBar StButton#vhandle:hover
  * ===================================================================*/
 
 /* Main menu title */
-.menu-favorites-box {  
-  margin: auto;
-  padding: 10px;
-  border: 1px solid rgba(90,90,90,1);  
-  border-radius: 4px;  
-  background-gradient-direction: vertical;
-  background-gradient-start: rgba(80,80,80,0.7);
-  background-gradient-end: rgba(60,60,60,0.7);
+.menu-favorites-box {
+    margin: auto;
+    padding: 10px;
+    border: 1px solid rgba(90, 90, 90, 1);
+    border-radius: 4px;
+    background-gradient-direction: vertical;
+    background-gradient-start: rgba(80, 80, 80, 0.7);
+    background-gradient-end: rgba(60, 60, 60, 0.7);
 }
+
 .menu-favorites-button {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
-    border: 1px solid rgba(0,0,0,0);
+    border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 4px;
 }
 
 .menu-favorites-button:hover {
-	 background-gradient-direction: vertical;
-	 background-gradient-start: rgba(90,90,90,1);
-	 background-gradient-end: rgba(70,70,70,1);
-	 box-shadow: inset 0px 1px 0px 0px rgba(100,100,100,1);
-         border: 1px solid rgba(120,120,120,1);
+    background-gradient-direction: vertical;
+    background-gradient-start: rgba(90, 90, 90, 1);
+    background-gradient-end: rgba(70, 70, 70, 1);
+    box-shadow: inset 0px 1px 0px 0px rgba(100, 100, 100, 1);
+    border: 1px solid rgba(120, 120, 120, 1);
 }
 
-.menu-places-box {  
-  margin: auto;
-  padding: 10px;
-  border: 0px solid #666;  
+.menu-places-box {
+    margin: auto;
+    padding: 10px;
+    border: 0px solid #666;
 }
 
 .menu-places-button {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 10px;    
+    padding-bottom: 10px;
 }
 
 .menu-categories-box {
     padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 10px;    
+    padding-bottom: 10px;
 }
 
 .menu-applications-box {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 0px;    
+    padding-bottom: 0px;
 }
 
 .menu-application-button {
     padding-top: 7px;
     padding-left: 7px;
     padding-right: 7px;
-    padding-bottom: 7px; 
-    max-width: 10px;   
+    padding-bottom: 7px;
+    max-width: 10px;
 }
 
 .menu-application-button:highlighted {
@@ -1524,10 +1521,10 @@ StScrollBar StButton#vhandle:hover
     padding-right: 7px;
     padding-bottom: 7px;
     color: white;
-	background-gradient-direction: vertical;
-    background-gradient-start: rgba(90,90,90,0.5);
-    background-gradient-end: rgba(70,70,70,0.5);
-    box-shadow: inset 0px 0px 1px 1px rgba(120,120,120,1);
+    background-gradient-direction: vertical;
+    background-gradient-start: rgba(90, 90, 90, 0.5);
+    background-gradient-end: rgba(70, 70, 70, 0.5);
+    box-shadow: inset 0px 0px 1px 1px rgba(120, 120, 120, 1);
     border-radius: 4px;
 }
 
@@ -1536,12 +1533,12 @@ StScrollBar StButton#vhandle:hover
     font-weight: bold;
 }
 
-.menu-application-button-label:ltr { 
-  padding-left: 5px;
+.menu-application-button-label:ltr {
+    padding-left: 5px;
 }
 
-.menu-application-button-label:rtl { 
-  padding-right: 5px;
+.menu-application-button-label:rtl {
+    padding-right: 5px;
 }
 
 .menu-category-button {
@@ -1555,8 +1552,8 @@ StScrollBar StButton#vhandle:hover
     padding-top: 7px;
     padding-left: 7px;
     padding-right: 7px;
-    padding-bottom: 7px; 
-    color: rgba(100,100,100,1);
+    padding-bottom: 7px;
+    color: rgba(100, 100, 100, 1);
     font-style: italic;
 }
 
@@ -1564,25 +1561,25 @@ StScrollBar StButton#vhandle:hover
     padding-top: 7px;
     padding-left: 7px;
     padding-right: 7px;
-    padding-bottom: 7px; 
+    padding-bottom: 7px;
     color: white;
-	background-gradient-direction: vertical;
-	background-gradient-start: rgba(90,90,90,0.5);
-	background-gradient-end: rgba(70,70,70,0.5);
-	box-shadow: inset 0px 0px 1px 1px rgba(120,120,120,1);
+    background-gradient-direction: vertical;
+    background-gradient-start: rgba(90, 90, 90, 0.5);
+    background-gradient-end: rgba(70, 70, 70, 0.5);
+    box-shadow: inset 0px 0px 1px 1px rgba(120, 120, 120, 1);
     border-radius: 4px;
 }
 
-.menu-category-button-label:ltr { 
-    padding-left: 5px       
+.menu-category-button-label:ltr {
+    padding-left: 5px
 }
 
-.menu-category-button-label:rtl { 
-    padding-right: 5px       
+.menu-category-button-label:rtl {
+    padding-right: 5px
 }
 
-.menu-category-button-button:hover {    
-    border-radius: 8px;    
+.menu-category-button-button:hover {
+    border-radius: 8px;
 }
 
 /* Name and description of the currently hovered item in the menu
@@ -1602,16 +1599,16 @@ StScrollBar StButton#vhandle:hover
 }
 
 .menu-search-box {
-   padding-left: 30px;
+    padding-left: 30px;
 }
 
 #menu-search-entry {
     padding: 4px 12px;
     border-radius: 4px;
     color: rgb(128, 128, 128);
-    border: 1px solid rgba(245,245,245,0.2);
-    background-gradient-start: rgba(5,5,6,0.1);
-    background-gradient-end: rgba(254,254,254,0.1);
+    border: 1px solid rgba(245, 245, 245, 0.2);
+    background-gradient-start: rgba(5, 5, 6, 0.1);
+    background-gradient-end: rgba(254, 254, 254, 0.1);
     background-gradient-direction: vertical;
     selected-color: black;
     caret-color: rgb(128, 128, 128);
@@ -1622,12 +1619,12 @@ StScrollBar StButton#vhandle:hover
 
 #menu-search-entry:focus,
 #menu-search-entry:hover {
-    border: 1px solid rgb(150,150,150);
-    background-gradient-start: rgb(200,200,200);
+    border: 1px solid rgb(150, 150, 150);
+    background-gradient-start: rgb(200, 200, 200);
     background-gradient-end: white;
     background-gradient-direction: vertical;
-    border: 1px solid rgba(120,120,120,1);
-    box-shadow: inset 0px 1px 2px 0px rgba(0,0,0,0.5);
+    border: 1px solid rgba(120, 120, 120, 1);
+    box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
 }
 
 #menu-search-entry:hover {
@@ -1654,8 +1651,8 @@ StScrollBar StButton#vhandle:hover
  * Window list (windowList.js)
  * ===================================================================*/
 .window-list-box {
-    spacing: 3px;   
-    padding-top: 1px;   
+    spacing: 3px;
+    padding-top: 1px;
 }
 
 .window-list-item-label {
@@ -1665,11 +1662,12 @@ StScrollBar StButton#vhandle:hover
 }
 
 .window-list-item-box {
-    color: rgba(255,255,255,1.0);
-	background-gradient-direction: vertical;
-	background-gradient-start: rgba(100,100,100,0.5);
-	background-gradient-end: rgba(50,50,50,0.5);
-	box-shadow: inset 0px 0px 0px 1px rgba(80,80,80,0.5);
+    color: rgba(255, 255, 255, 1.0);
+/*    background-gradient-direction: vertical;
+    background-gradient-start: rgba(100, 100, 100, 0.5);
+    background-gradient-end: rgba(50, 50, 50, 0.5);
+    box-shadow: inset 0px 0px 0px 1px rgba(80, 80, 80, 0.5);
+*/
     border-radius: 4px 4px 0px 0px;
     padding: 1px;
     padding-left: 5px;
@@ -1679,22 +1677,25 @@ StScrollBar StButton#vhandle:hover
 
 .window-list-item-box:active,
 .window-list-item-box:checked,
-.window-list-item-box:focus  {    
-    background-gradient-direction: vertical;
-    background-gradient-start: rgba(220,220,220,0.5);
-    background-gradient-end: rgba(70,70,70,0.5);
-    box-shadow: inset 0px 0px 0px 1px rgba(100,100,100,0.5);
+.window-list-item-box:focus {
+    /*background-gradient-direction: vertical;
+    background-gradient-start: rgba(220, 220, 220, 0.5);
+    background-gradient-end: rgba(70, 70, 70, 0.5);
+    box-shadow: inset 0px 0px 0px 1px rgba(100, 100, 100, 0.5);
+*/
     border-radius: 4px 4px 0px 0px;
+    border-image: url("panel-assets/panel-bottom-item-active.svg") 4;  
 }
 
-
-.window-list-item-box:hover  {     
-    box-shadow: inset 0px 0px 0px 1px rgba(120,120,120,0.5);    
+.window-list-item-box:hover {
+    box-shadow: inset 0px 0px 0px 1px rgba(120, 120, 120, 0.5);
+    border-image: url("panel-assets/panel-bottom-item-active-hover.svg") 4;
 }
 
 .window-list-item-demands-attention {
-         background-gradient-start: rgba(255,52,52,0.5);
-	 background-gradient-end: rgba(255,144,144,0.5);
+    background-gradient-start: rgba(255, 52, 52, 0.5);
+    background-gradient-end: rgba(255, 144, 144, 0.5);
+    border-image: url("panel-assets/panel-bottom-item-attention.svg") 4;
 }
 
 /* ===================================================================
@@ -1709,24 +1710,25 @@ StScrollBar StButton#vhandle:hover
     width: 22px;
     height: 13px;
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(80,80,80,1);
-    background-gradient-end: rgba(60,60,60,1);
-    border: 1px solid rgba(0,0,0,0);
+    background-gradient-start: rgba(80, 80, 80, 1);
+    background-gradient-end: rgba(60, 60, 60, 1);
+    border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 4px;
-    box-shadow: inset 0px 1px 0px 0px rgba(100,100,100,1);
+    box-shadow: inset 0px 1px 0px 0px rgba(100, 100, 100, 1);
     padding: 5px;
 }
+
 .sound-button:hover {
-    background-gradient-start: rgba(90,90,90,1);
-    background-gradient-end: rgba(70,70,70,1);
-    border: 1px solid rgba(120,120,120,1);
+    background-gradient-start: rgba(90, 90, 90, 1);
+    background-gradient-end: rgba(70, 70, 70, 1);
+    border: 1px solid rgba(120, 120, 120, 1);
 }
 
 .sound-button:active {
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(60,60,60,1);
-    background-gradient-end: rgba(40,40,40,1);
-    box-shadow: inset 0px 1px 0px 0px rgba(35,35,35,1);
+    background-gradient-start: rgba(60, 60, 60, 1);
+    background-gradient-end: rgba(40, 40, 40, 1);
+    box-shadow: inset 0px 1px 0px 0px rgba(35, 35, 35, 1);
 }
 
 .sound-button StIcon {
@@ -1754,27 +1756,27 @@ StScrollBar StButton#vhandle:hover
     padding-right: 5px;
 }
 
-.sound-track-box {  
+.sound-track-box {
     padding-left: 15px;
-    padding-right: 15px;  
+    padding-right: 15px;
     max-width: 220px;
 }
 
 .sound-seek-box {
-   padding-left: 20px;
+    padding-left: 20px;
 }
 
 .sound-seek-box StLabel {
-   padding-top: 2px;
+    padding-top: 2px;
 }
 
 .sound-seek-box StIcon {
-   icon-size: 1em;
+    icon-size: 1em;
 }
 
 .sound-seek-slider {
-   width: 140px;
-} 
+    width: 140px;
+}
 
 .sound-volume-menu-item {
     padding: .4em 1.75em;
@@ -1805,17 +1807,17 @@ StScrollBar StButton#vhandle:hover
 .workspace-button {
     width: 20px;
     height: 10px;
-    color: rgba(200,200,200,1);
+    color: rgba(200, 200, 200, 1);
     border: 1px;
-    border-color: rgba(200,200,200,1);
+    border-color: rgba(200, 200, 200, 1);
     padding: 1px;
     transition-duration: 300;
 }
 
 .workspace-button:outlined {
     padding: 1px;
-    background: rgba(200,200,200,1);
-    color: rgba(55,55,55,1);
+    background: rgba(200, 200, 200, 1);
+    color: rgba(55, 55, 55, 1);
 }
 
 /* Controls the style when using the "Visual representation" option */
@@ -1858,7 +1860,7 @@ StScrollBar StButton#vhandle:hover
  * ===================================================================*/
 
 #panel-launchers-box {
-    
+
 }
 
 .panel-launcher {
@@ -1868,36 +1870,36 @@ StScrollBar StButton#vhandle:hover
 
 .panel-launcher:hover {
     background-gradient-direction: vertical;
-    background-gradient-start: rgba(255,255,255,0.0);
-    background-gradient-end: rgba(255,255,255,0.2);
-    border: 0px solid rgba(255,255,255,0.5);
+    background-gradient-start: rgba(255, 255, 255, 0.0);
+    background-gradient-end: rgba(255, 255, 255, 0.2);
+    border: 0px solid rgba(255, 255, 255, 0.5);
     border-bottom-width: 1px;
 }
 
 .panel-launcher-add-dialog-content-box {
-	padding: 6px;
-	spacing: 20px;
+    padding: 6px;
+    spacing: 20px;
 }
 
 .panel-launcher-add-dialog-content-box-left {
-	padding: 6px;
-	spacing: 20px;
+    padding: 6px;
+    spacing: 20px;
 }
 
 .panel-launcher-add-dialog-content-box-right {
-	padding: 6px;
-	spacing: 10px;
+    padding: 6px;
+    spacing: 10px;
 }
 
 .panel-launcher-add-dialog-entry {
     padding: 5px;
     border-radius: 4px;
     color: rgb(50, 50, 50);
-    border: 1px solid rgba(245,245,245,0.2);
-    background-gradient-start: rgba(200,200,200,0.5);
-    background-gradient-end: rgba(254,254,254,0.5);
+    border: 1px solid rgba(245, 245, 245, 0.2);
+    background-gradient-start: rgba(200, 200, 200, 0.5);
+    background-gradient-end: rgba(254, 254, 254, 0.5);
     background-gradient-direction: vertical;
-    box-shadow: inset 0px 1px 2px 0px rgba(0,0,0,0.5);
+    box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
     selected-color: black;
     caret-color: rgb(128, 128, 128);
     caret-size: 1px;
@@ -1907,8 +1909,8 @@ StScrollBar StButton#vhandle:hover
 
 .panel-launcher-add-dialog-entry:focus,
 .panel-launcher-add-dialog-entry:hover {
-    border: 1px solid rgba(120,120,120,1);
-    background-gradient-start: rgb(200,200,200);
+    border: 1px solid rgba(120, 120, 120, 1);
+    background-gradient-start: rgb(200, 200, 200);
     background-gradient-end: white;
     background-gradient-direction: vertical;
 }
@@ -1927,11 +1929,11 @@ StScrollBar StButton#vhandle:hover
  * Overview corner
  * ===================================================================*/
 #overview-corner {
-	background-image: url("overview.png");
+    background-image: url("overview.png");
 }
 
-#overview-corner:hover {    
-    background-image:  url("overview-hover.png");
+#overview-corner:hover {
+    background-image: url("overview-hover.png");
 }
 
 /* ===================================================================
@@ -1940,9 +1942,10 @@ StScrollBar StButton#vhandle:hover
 .applet-separator {
     padding: 5px 4px;
 }
+
 .applet-separator-line {
     width: 2px;
-    background: rgba(255,255,255,.5);
+    background: rgba(255, 255, 255, .5);
 }
 
 .applet-box {
@@ -1951,22 +1954,27 @@ StScrollBar StButton#vhandle:hover
     color: #ccc;
     text-shadow: black 0px 0px 2px;
 }
+
 .applet-box:hover {
     color: #fff;
 }
-.applet-label { 
+
+.applet-label {
     font-weight: bold;
-    color: #ccc;        
+    color: #ccc;
 }
+
 .applet-label:hover,
 .applet-box:hover .applet-label {
     color: #fff;
     text-shadow: white 0px 0px 5px;
 }
+
 .applet-icon {
     color: #ccc;
     icon-size: 22px;
 }
+
 .applet-icon:hover,
 .applet-box:hover .applet-icon {
     color: #fff;
@@ -1978,39 +1986,39 @@ StScrollBar StButton#vhandle:hover
  * ===================================================================*/
 
 .workspace-osd {
-	color: #ffffff;
-	text-shadow: black 5px 5px 5px;
-	font-weight: bold;
-	font-size: 48pt;	
+    color: #ffffff;
+    text-shadow: black 5px 5px 5px;
+    font-weight: bold;
+    font-size: 48pt;
 }
 
 .expo-workspaces-name-entry {
-	padding: 5px;
-	border-radius: 4px;
-	color: rgb(128, 128, 128);
-	border: 2px solid rgb(136,138,133);
-	background-gradient-start: rgb(200,200,200);
-	background-gradient-end: white;
-	background-gradient-direction: vertical;
-	selected-color: black;
-	caret-color: rgb(128, 128, 128);
-	caret-size: 1px;
-	width: 250px;
-	height: 15px;	
-	box-shadow: inset 0px 2px 4px rgba(0,0,0,0.6);
-	text-align: center;	
+    padding: 5px;
+    border-radius: 4px;
+    color: rgb(128, 128, 128);
+    border: 2px solid rgb(136, 138, 133);
+    background-gradient-start: rgb(200, 200, 200);
+    background-gradient-end: white;
+    background-gradient-direction: vertical;
+    selected-color: black;
+    caret-color: rgb(128, 128, 128);
+    caret-size: 1px;
+    width: 250px;
+    height: 15px;
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.6);
+    text-align: center;
 }
 
 .expo-workspaces-name-entry#selected {
-	background-gradient-start: rgb(128,128,128);
-	background-gradient-end: black;
-	color: rgb(200, 200, 200);
+    background-gradient-start: rgb(128, 128, 128);
+    background-gradient-end: black;
+    color: rgb(200, 200, 200);
 }
 
 .expo-workspaces-name-entry:focus {
-	color: rgb(64, 64, 64);
-	font-weight: bold;
-	transition-duration: 300;
+    color: rgb(64, 64, 64);
+    font-weight: bold;
+    transition-duration: 300;
 }
 
 /* ===================================================================
@@ -2018,11 +2026,11 @@ StScrollBar StButton#vhandle:hover
  * ===================================================================*/
 
 .notification-applet-padding {
-	padding: .5em 1em;
+    padding: .5em 1em;
 }
 
 .notification-applet-container {
-	max-height: 100px;
+    max-height: 100px;
 }
 
 /* Check Boxes */
@@ -2043,7 +2051,7 @@ StScrollBar StButton#vhandle:hover
 }
 
 .check-box StLabel {
-   font-weight: normal;
+    font-weight: normal;
 }
 
 .radiobutton CinnamonGenericContainer {
@@ -2066,20 +2074,20 @@ StScrollBar StButton#vhandle:hover
 }
 
 .radiobutton StLabel {
-   padding-top: 4px;
-   font-size: 0.9em;
-   box-shadow: none;
+    padding-top: 4px;
+    font-size: 0.9em;
+    box-shadow: none;
 }
 
 .flashspot {
-   background-color: white;
+    background-color: white;
 }
 
 /* ===================================================================
  * About Dialog (applet.js and desklet.js)
  * ===================================================================*/
 
- .about-content {
+.about-content {
     width: 300px;
     height: 150px;
     spacing: 8px;
@@ -2123,8 +2131,8 @@ StScrollBar StButton#vhandle:hover
 
 .tile-preview,
 .tile-hud {
-    background-color: rgba(63,63,63,0.7);
-    border: 1px solid rgba(120,120,120,0.9);
+    background-color: rgba(63, 63, 63, 0.7);
+    border: 1px solid rgba(120, 120, 120, 0.9);
 }
 
 .tile-preview.snap,
