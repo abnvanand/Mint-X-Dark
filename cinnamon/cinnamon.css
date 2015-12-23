@@ -737,10 +737,12 @@ StScrollBar StButton#vhandle:hover {
     text-shadow: black 0px 2px 2px;
     color: #ffffff;
     font-weight: bold;
-    background-gradient-direction: vertical;
+/*  background-gradient-direction: vertical;
     background-gradient-start: rgba(40, 40, 40, 1);
     background-gradient-end: rgba(60, 60, 60, 1);
-    box-shadow: inset 0px 0px 0px 1px rgba(120, 120, 120, 1);
+*/   
+box-shadow: inset 0px 0px 0px 1px rgba(120, 120, 120, 1);
+ 
     background: #5aaa9a;
 }
 
@@ -1663,11 +1665,12 @@ StScrollBar StButton#vhandle:hover {
 
 .window-list-item-box {
     color: rgba(255, 255, 255, 1.0);
-/*    background-gradient-direction: vertical;
-    background-gradient-start: rgba(100, 100, 100, 0.5);
+   background-gradient-direction: vertical;
+/*     background-gradient-start: rgba(100, 100, 100, 0.5);
     background-gradient-end: rgba(50, 50, 50, 0.5);
-    box-shadow: inset 0px 0px 0px 1px rgba(80, 80, 80, 0.5);
 */
+    box-shadow: inset 0px 0px 0px 1px rgba(80, 80, 80, 0.5);
+
     border-radius: 4px 4px 0px 0px;
     padding: 1px;
     padding-left: 5px;

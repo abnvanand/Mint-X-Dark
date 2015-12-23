@@ -30,8 +30,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="20.005229"
-     inkscape:cx="4.4769669"
-     inkscape:cy="11.900026"
+     inkscape:cx="-10.71906"
+     inkscape:cy="11.800052"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
@@ -130,12 +130,20 @@
      id="layer1"
      transform="translate(0,-276)">
     <rect
-       style="fill:#008080;fill-opacity:1;stroke:none"
+       style="fill:#5aaa9a;fill-opacity:1;stroke:none"
        id="rect2997"
        width="24"
        height="2"
        x="0"
        y="22"
+       transform="translate(0,276)" />
+    <rect
+       style="fill:#484848;fill-opacity:1;stroke:none"
+       id="rect3039"
+       width="24"
+       height="22"
+       x="0"
+       y="0"
        transform="translate(0,276)" />
   </g>
 </svg>
